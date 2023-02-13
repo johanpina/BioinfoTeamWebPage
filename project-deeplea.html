@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Deep learning Applied to LTR-retrotransposon</title>
+    <meta name="description" content="Deep learning Applied to LTR-retrotransposon project page" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/semillero.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Team Bioinformatics and Artificial Intelligence</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <!--
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+            -->
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Inpactor2: LTR retrotransposon detector and classificator using Deep Learning</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Inpactor2 was designed and developed to detect reference LTR retrotransposons (LTR-RTs), 
+            filtering out those elements that correspond to fragments or have nested insertions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/inpactor2.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Inpactor2 was designed and developed to detect reference 
+                LTR retrotransposons (LTR-RTs), filtering out those elements 
+                that correspond to fragments or have nested insertions. 
+                In addition, Inpactor2 classifies LTR-RTs down to the lineage/family level. 
+                Optionally, this tool annotates the elements discovered through RepeatMasker.
+              </p>
+              <p class="project-details__desc-para">
+                Inpactor2 uses neural networks to perform its tasks faster than other software 
+                (up to 7 times faster), accurately while maintaining high sensitivity and a low false positive rate.
+              </p>
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                This tool takes advantage of multi-core and GPU architectures to decrease execution times. 
+                Using the rice genome, Inpactor2 showed a run time of 5 minutes (faster than other tools) and has the best accuracy and F1-Score of the tools tested here, 
+                also having the second best accuracy and specificity only surpassed by EDTA, but achieving 28% higher sensitivity. For large genomes, Inpactor2 is up to 
+                seven times faster than other available bioinformatics tools.
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] Simon Orozco-Arias, Luis Humberto Lopez-Murillo, Mariana S Candamil-Cortés, Maradey Arias, Paula A Jaimes, Alexandre Rossi Paschoal, 
+                Reinel Tabares-Soto, Gustavo Isaza, Romain Guyot, Inpactor2: a software based on deep learning to identify and classify LTR-retrotransposons 
+                in plant genomes, <i>Briefings in Bioinformatics, Volume 24, Issue 1, January 2023, bbac511,</i> 
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.1093/bib/bbac511"
+                target="_blank" rel="noreferrer">110.1093/bib/bbac511</a>.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">multiprocess</div>
+                <div class="skills__skill">Ltr-finder</div>
+                <div class="skills__skill">RepeatMasker</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://academic.oup.com/bib/article/24/1/bbac511/6887110"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+              <a
+                href="https://github.com/simonorozcoarias/Inpactor2"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Measuring Performance Metrics of Machine Learning Algorithms for Detecting and Classifying Transposable Elements </h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            We evaluated 26 metrics found in the literature for TE detection and classification, 
+            considering the main features of this type of data, the invariance properties and 
+            characteristics of each metric in order to select the more appropriate ones for each type of classification.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/metricas.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Because of the promising results obtained by machine learning (ML) approaches in several fields, every day is more common, the utilization of ML to solve problems in bioinformatics. 
+                In genomics, a current issue is to detect and classify transposable elements (TEs) because of the tedious tasks involved in bioinformatics methods. 
+                Thus, ML was recently evaluated for TE datasets, demonstrating better results than bioinformatics applications. 
+                A crucial step for ML approaches is the selection of metrics that measure the realistic performance of algorithms. Each metric has specific characteristics and measures properties that may be different from the predicted results. Although the most commonly used way to compare measures is by using empirical analysis, a non-result-based methodology has been proposed, called measure invariance properties. 
+              </p>
+              
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                we analyzed 26 different metrics utilized in binary, multiclass, and hierarchical classifications, 
+                through bibliographic sources, and their invariance properties. Then, we corroborated our findings 
+                utilizing freely available TE datasets and commonly used ML algorithms. Based on our analysis, 
+                the most suitable metrics for TE tasks must be stable, even using highly unbalanced datasets, 
+                multimodal negative class, and training datasets with errors or outliers. Based on these parameters, 
+                we conclude that the F1-score and the area under the precision-recall curve are the most informative 
+                metrics since they are calculated based on other metrics, providing insight into the development of an
+                ML application.
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] Orozco-Arias, S.; Piña, J.S.; Tabares-Soto, R.; Castillo-Ossa, L.F.; Guyot, R.; Isaza, G. 
+                Measuring Performance Metrics of Machine Learning Algorithms for Detecting and Classifying Transposable Elements.
+                <i>Processes 2020, 8, 638. </i>
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.3390/pr8060638"
+                target="_blank" rel="noreferrer">https://doi.org/10.3390/pr8060638  </a>.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">scikit-learn</div>
+                <div class="skills__skill">Linux</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.mdpi.com/2227-9717/8/6/638"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+              <a
+                href="https://github.com/simonorozcoarias/MachineLearningInTEs"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">K-mer-based machine learning method to classify LTR-retrotransposons in plant genomes </h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            We used Machine Learning algorithms based on k-mer counts to classify LTR retrotransposons from other genomic sequences 
+            and into lineages/families with an F1-Score of 95%, contributing to develop a free-alignment and automatic method to 
+            analyze these sequences.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/kmer.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Every day more plant genomes are available in public databases and additional massive sequencing projects 
+                (i.e., that aim to sequence thousands of individuals) are formulated and released. Nevertheless, there are 
+                not enough automatic tools to analyze this large amount of genomic information. LTR retrotransposons are 
+                the most frequent repetitive sequences in plant genomes; however, their detection and classification are 
+                commonly performed using semi-automatic and time-consuming programs. Despite the availability of several 
+                bioinformatic tools that follow different approaches to detect and classify them, none of these tools can 
+                individually obtain accurate results
+              </p>
+              
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                We have shown the possibility of both binary and multi-class classification through ML with different approaches. 
+                First, by using a negative dataset (i.e., sequences of genomic features excluding LTR-RTs), we obtained an F1-Score 
+                up to 97.9% in the binary classification task. In the detailed lineage/family level classification task, we obtained 
+                a performance of 97% by using the same datasets as in Orozco-Arias et al. (2020) but including more elements from InpactorDB. 
+                Finally, we unified both tasks into a single process, obtaining a 96% F1-Score. These results were achieved using the k-mer 
+                frequencies of sequences. 
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] Orozco-Arias S, Candamil-Cortés MS, Jaimes PA, Piña JS, Tabares-Soto R, Guyot R, Isaza G. K-mer-based machine learning 
+                method to classify LTR-retrotransposons in plant genomes.<i>PeerJ. 2021 May 19;9:e11456.</i>
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="10.7717/peerj.11456"
+                target="_blank" rel="noreferrer">doi: 10.7717/peerj.11456  </a>. PMID: 34055489; PMCID: PMC8140598.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">scikit-learn</div>
+                <div class="skills__skill">Linux</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8140598/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+              <a
+                href="https://github.com/simonorozcoarias/MachineLearningInTEs"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">InpactorDB</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Classified Lineage-Level Plant LTR Retrotransposon Reference Library for Free-Alignment Methods Based on Machine Learning 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/inpactordb.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Long terminal repeat (LTR) retrotransposons are mobile elements that constitute the 
+                major fraction of most plant genomes. The identification and annotation of these elements 
+                via bioinformatics approaches represent a major challenge in the era of massive plant genome 
+                sequencing. In addition to their involvement in genome size variation, LTR retrotransposons 
+                are also associated with the function and structure of different chromosomal regions and can 
+                alter the function of coding regions, among others. Several sequence databases of plant LTR 
+                retrotransposons are available for public access, such as PGSB and RepetDB, or restricted access 
+                such as Repbase. Although these databases are useful to identify LTR-RTs in new genomes by 
+                similarity, the elements of these databases are not fully classified to the lineage 
+                (also called family) level.
+              </p>
+              
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                we present InpactorDB, a semi-curated dataset composed of 130,439 elements from 195 plant genomes 
+                (belonging to 108 plant species) classified to the lineage level. This dataset has been used to 
+                train two deep neural networks (i.e., one fully connected and one convolutional) for the rapid 
+                classification of these elements. In lineage-level classification approaches, we obtain up to 98% 
+                performance, indicated by the F1-score, precision and recall scores.
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] Orozco-Arias, S.; Jaimes, P.A.; Candamil, M.S.; Jiménez-Varón, C.F.; Tabares-Soto, R.; Isaza, G.; Guyot, R. 
+                InpactorDB: A Classified Lineage-Level Plant LTR Retrotransposon Reference Library for Free-Alignment Methods 
+                Based on Machine Learning. <i>Genes 2021, 12, 190. </i>
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.3390/genes12020190"
+                target="_blank" rel="noreferrer">https://doi.org/10.3390/genes12020190  </a>. 
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">scikit-learn</div>
+                <div class="skills__skill">Linux</div>
+                <div class="skills__skill">Database Search</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.mdpi.com/2073-4425/12/2/190#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+              <a
+                href="https://zenodo.org/record/4386317#.Y-mehjzMJH4"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Database Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Application of machine learning in TE</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A systematic review of the application of machine learning in the detection and classification of transposable elements 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/review.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Transposable elements (TEs) constitute the most common repeated sequences in eukaryotic genomes. 
+                Recent studies demonstrated their deep impact on species diversity, adaptation to the environment and diseases. 
+                Although there are many conventional bioinformatics algorithms for detecting and classifying TEs, none 
+                have achieved reliable results on different types of TEs. Machine learning (ML) techniques can automatically 
+                extract hidden patterns and novel information from labeled or non-labeled data and have been applied to solving several scientific problems.                 
+              </p>
+              
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                Several ML approaches have already been tested on other bioinformatics problems with promising results, yet there are few algorithms and architectures available 
+                in literature focused specifically on TEs, despite representing the majority of the nuclear DNA of many organisms. Only 35 articles were found and categorized as 
+                relevant in TE or related fields. 
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] Orozco-Arias S, Isaza G, Guyot R, Tabares-Soto R. A systematic review of the application of machine learning in the detection 
+                and classification of transposable elements. <i>PeerJ. 2019 Dec 18;7:e8311.</i>  
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="doi: 10.7717/peerj.8311"
+                target="_blank" rel="noreferrer">doi: 10.7717/peerj.8311</a>. PMID: 31976169; PMCID: PMC6967008.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Systematic Literature Review (SLR) process</div>
+                <div class="skills__skill">PRISMA flow</div>
+                <div class="skills__skill">Database Search</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://pubmed.ncbi.nlm.nih.gov/31976169/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary"> Retrotransposons in Plant Genomes</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Structure, Identification, and Classification through Bioinformatics and Machine Learning 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/testructure.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Transposable elements (TEs) are genomic units able to move within the genome of virtually all organisms. 
+                Due to their natural repetitive numbers and their high structural diversity, the identification and classification 
+                of TEs remain a challenge in sequenced genomes. Although TEs were initially regarded as “junk DNA”, it has been 
+                demonstrated that they play key roles in chromosome structures, gene expression, and regulation, as well as adaptation and evolution. 
+                A highly reliable annotation of these elements is, therefore, crucial to better understand genome functions and their evolution. 
+                To date, much bioinformatics software has been developed to address TE detection and classification processes, but many problematic 
+                aspects remain, such as the reliability, precision, and speed of the analyses.                
+              </p>
+              
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                In this review, we will discuss important aspects of TEs, such as their structure, importance in the evolution and architecture of the host, 
+                and their current classifications and nomenclatures. We will also address current methods and their limitations in identifying and classifying TEs.
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] OOrozco-Arias, S.; Isaza, G.; Guyot, R. Retrotransposons in 
+                Plant Genomes: Structure, Identification, and Classification through 
+                Bioinformatics and Machine Learning.  <i>Int. J. Mol. Sci. 2019, 20, 3837.</i>  
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.3390/ijms20153837"
+                target="_blank" rel="noreferrer">https://doi.org/10.3390/ijms20153837</a>
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Systematic Literature Review (SLR) process</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.mdpi.com/1422-0067/20/15/3837"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://github.com/BioAITeam">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <!--
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+              -->
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Team Bioinformatics and Artificial Intelligence</h4>
+            <p class="main-footer__short-desc">
+              <!-- Universidad Autónoma de Manizales </br> Contact at: <a href="mailto:rtabares@autonoma.edu.co">rtabares@autonoma.edu.co</a> -->
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

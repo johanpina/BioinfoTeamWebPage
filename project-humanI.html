@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Human illnes</title>
+    <meta name="description" content="Human Illnes project page" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/semillero.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Team Bioinformatics and Artificial Intelligence</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <!--
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+            -->
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">ML and DL in cancer classification</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A comparative study of machine learning and deep learning algorithms to classify cancer types based on microarray gene expression data 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/cancerIA.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Cancer classification is a topic of major interest in medicine since it allows accurate and efficient diagnosis and facilitates a successful 
+                outcome in medical treatments. Previous studies have classified human tumors using a large-scale RNA profiling and supervised Machine Learning 
+                (ML) algorithms to construct a molecular-based classification of carcinoma cells from breast, bladder, adenocarcinoma, colorectal, gastro esophagus, 
+                kidney, liver, lung, ovarian, pancreas, and prostate tumors. These datasets are collectively known as the 11_tumor database, although this database 
+                has been used in several works in the ML field, no comparative studies of different algorithms can be found in the literature. 
+              </p>
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                We obtained tumor identification accuracies between 90.6% (Logistic Regression) and 94.43% (Convolutional Neural Networks) using k-fold cross-validation. 
+                Also, we show how a tuning process may or may not significantly improve algorithms' accuracies. Our results demonstrate an efficient and accurate 
+                classification method based on gene expression (microarray data) and ML/DL algorithms, which facilitates tumor type prediction in a multi-cancer-type scenario. 
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] abares-Soto R, Orozco-Arias S, Romero-Cano V, Segovia Bucheli V, Rodríguez-Sotelo JL, Jiménez-Varón CF. A comparative study of machine learning and deep learning algorithms 
+                to classify cancer types based on microarray gene expression data.<i> PeerJ Comput Sci. 2020 Apr 13;6:e270.</i> 
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="doi: 10.7717/peerj-cs.270"
+                target="_blank" rel="noreferrer">doi: 10.7717/peerj-cs.270</a>. PMID: 33816921; PMCID: PMC7924492.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">Scikit-learn</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://pubmed.ncbi.nlm.nih.gov/33816921/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Deep Learning Applied to COVID-19 Detection in X-Ray Images</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Research project intended to develop a Computer Aided Diagnosis (CAD)
+            tool for the COVID-19 disease using X-Ray images and Deep Learning methods.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/covid.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                COVID-19 global pandemic affects health care and lifestyle worldwide, 
+                and its early detection is critical to control cases’ spreading and 
+                mortality. The actual leader diagnosis test is the Reverse transcription 
+                Polymerase Chain Reaction (RT-PCR), result times and cost of these tests are high, 
+                so other fast and accessible diagnostic tools are needed. Inspired by recent research 
+                that correlates the presence of COVID-19 to findings in Chest X-ray images, this project 
+                evaluates the use of deep learning models, in particular Convolutional Neural Networks (CNNs),
+                to process these images and classify them as positive or negative for COVID-19, furthermore
+                to develop a Computer Aided Diagnosis (CAD) tool for the disease.
+              </p>
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                Results presented in this section correspond to experiments performed in [1] using transfer learning
+                on VGG16 and VGG19 networks. Specifically, the accuracies presented were achieved using lung segmentation
+                to force the model to extract information from the relevant areas for the task. For more information refer to the scientific
+                paper linked below.
+              </p>         
+              <table>
+                <caption style="caption-side:bottom; text-align: center;">Accuracies for VGG16 and VGG19 using lung segmentation [1].</caption>
+                <tr>
+                  <th>Model</th>
+                  <th>Train</th>
+                  <th>Validation</th>
+                  <th>Test</th>
+                </tr>
+                <tr>
+                  <td>VGG16</td>
+                  <td>0.9958</td>
+                  <td>0.9376</td>
+                  <td>0.9299</td>
+                </tr>
+                <tr>
+                  <td>VGG19</td>
+                  <td>0.9937</td>
+                  <td>0.9449</td>
+                  <td>0.9363</td>
+                </tr>
+              </table>
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] D. Arias-Garzón et al., “COVID-19 detection in X-ray images using convolutional neural networks,” 
+                <i>Mach. Learn. with Appl.</i>, vol. 6, p. 100138, Dec. 2021, doi: 
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.1016/j.mlwa.2021.100138"
+                target="_blank" rel="noreferrer">10.1016/j.mlwa.2021.100138</a>.
+              </p>
+              <p class="project-details__desc-para">
+                [2] Arteaga-Arteaga, Harold Brayan, et al. "Deep Learning Applied to COVID-19 Detection in X-Ray Images." AI 
+                Applications for Disease Diagnosis and Treatment, edited by Rajae El Ouazzani, et al., IGI Global, 2022, pp. 202-247. 
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.4018/978-1-6684-2304-2.ch007"
+                target="_blank" rel="noreferrer">https://doi.org/10.4018/978-1-6684-2304-2.ch007</a>.
+              </p>
+              <p class="project-details__desc-para">
+                [3] Alzate-Grisales, J.A., Mora-Rubio, A., Arteaga-Arteaga, H.B. et al. Cov-caldas: A new COVID-19 chest X-Ray dataset 
+                from state of Caldas-Colombia. Sci Data 9, 757 (2022).
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.1038/s41597-022-01576-z"
+                target="_blank" rel="noreferrer">https://doi.org/10.1038/s41597-022-01576-z</a>.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">PyTorch</div>
+                <div class="skills__skill">XNAT</div>
+                <div class="skills__skill">Clinical Trials Processor (CTP)</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.sciencedirect.com/science/article/pii/S2666827021000694?via%3Dihub"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper 1 Link</a
+              >
+              <a
+                href="https://www.igi-global.com/chapter/deep-learning-applied-to-covid-19-detection-in-x-ray-images/305024"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper 2 Link</a
+              >
+              <a
+                href="https://www.nature.com/articles/s41597-022-01576-z#citeas"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper 3 Link</a
+              >
+              <a
+                href="https://github.com/BioAITeam/COVID19-Detection"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Optimized CNNs Models For Skin Lesion Classification</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Research project carried out with the aim of developing a Computer Aided Diagnosis (CAD) tool
+            to detect different skin lesions, using Transfer Learning and data augmentation.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/skin.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Skin cancer is one of the most severe diseases, and medical imaging
+                is among the main tools for cancer diagnosis. The images provide information
+                on the evolutionary stage, size, and location of tumor lesions. This paper
+                focuses on the classification of skin lesion images considering a framework
+                of four experiments to analyze the classification performance of Convolutional
+                Neural Networks (CNNs) in distinguishing different skin lesions. The CNNs are based
+                on transfer learning, taking advantage of ImageNet weights. Accordingly, in each experiment,
+                different workflow stages are tested, including data augmentation and fine-tuning optimization.
+                Three CNN models based on DenseNet-201, Inception-ResNet-V2, and Inception-V3 are proposed
+                and compared using the HAM10000 dataset. The results obtained by the three models demonstrate
+                accuracies of 98%, 97%, and 96%, respectively. Finally, the best model is tested on the
+                ISIC 2019 dataset showing an accuracy of 93%. The proposed methodology using CNN represents
+                a helpful tool to accurately diagnose skin cancer disease.
+              </p>
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                The results presented in this section correspond to the experiments performed in [1] using
+                transfer learning on the DenseNet-201, Inception-ResNet-V2, and Inception-V3 networks. Specifically, the
+                accuracies presented were achieved using Data Augmentation to level out the mismatch in the database 
+                and prevent overtraining with the data. For more information, please refer to the scientific paper
+                article linked below.
+              </p>         
+              <table>
+                <caption style="caption-side:bottom; text-align: center;">Accuracies for DenseNet-201, Inception-ResNet-V2, and Inception-V3 using Transfer Learning [1].</caption>
+                <tr>
+                  <th>Model</th>
+                  <th>Train</th>
+                  <th>Validation</th>
+                  <th>Test</th>
+                </tr>
+                <tr>
+                  <td>DenseNet-201</td>
+                  <td>1.00</td>
+                  <td>0.98</td>
+                  <td>0.98</td>
+                </tr>
+                <tr>
+                  <td>Inception-ResNet-V2</td>
+                  <td>0.99</td>
+                  <td>0.96</td>
+                  <td>0.97</td>
+                </tr>
+                <tr>
+                  <td>Inception-V3</td>
+                  <td>0.99</td>
+                  <td>0.97</td>
+                  <td>0.96</td>
+                </tr>
+              </table>
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] J. Villa-Pulgarin et al., “Optimized Convolutional Neural Network Models for Skin Lesion Classification,” 
+                <i>Computers, Materials & Continua.</i>, vol. 70, pp. 2131-2148, Sep. 2021, doi: 
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.32604/cmc.2022.019529"
+                target="_blank" rel="noreferrer">10.32604/cmc.2022.019529</a>.
+              </p>
+              
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">Keras</div>
+                <div class="skills__skill">Data Augmentation</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.techscience.com/cmc/v70n2/44641"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+              <a
+                href="https://github.com/BioAITeam/Classification-of-skin-lesions-using-CNN-TransferLearning-and-Data-Augmentation"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">A Machine Learning-based Pipeline for the Classification of CTX-M in Metagenomics Samples </h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Research project carried out with the aim of developing a Computer model
+            to classify CTX-M in metagenomics samples.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/projects/metagenomic.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Bacterial infections are a major global concern, since they can lead 
+                to public health problems. To address this issue, bioinformatics contributes 
+                extensively with the analysis and interpretation of in silico data by enabling 
+                to genetically characterize different individuals/strains, such as in bacteria. 
+                However, the growing volume of metagenomic data requires new infrastructure, 
+                technologies, and methodologies that support the analysis and prediction of 
+                this information from a clinical point of view, as intended in this work.
+              </p>
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Results Highlight</h3>
+              <p class="project-details__desc-para">
+                pipeline was also designed and implemented in bash script based on machine learning. 
+                Further, Python 3 programming language was used to normalize the training data of
+                the artificial neural network, which was implemented in the TensorFlow framework, 
+                and its behavior was visualized in TensorBoard. Finally, the values from the initial 
+                bioinformatics process and the data generated during the parameterization and optimization 
+                of the Artificial Neural Network are presented and validated based on the most optimal result 
+                for the identification of the CTX-M gene group.
+              </p>         
+              
+              </p>         
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Products</h3>
+              <p class="project-details__desc-para">
+                [1] Ceballos, D.; López-Álvarez, D.; Isaza, G.; Tabares-Soto, R.; Orozco-Arias, S.; Ferrin, C.D. A Machine 
+                Learning-based Pipeline for the Classification of CTX-M in Metagenomics Samples. 
+                Processes 2019, 7, 235.  
+                <a style="color: #0062b9;  text-decoration-line: underline;" href="https://doi.org/10.3390/pr7040235"
+                target="_blank" rel="noreferrer">https://doi.org/10.3390/pr7040235</a>.
+              </p>
+              
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">TensorFlow</div>
+                <div class="skills__skill">Keras</div>
+                <div class="skills__skill">Metagenomics</div>
+                <div class="skills__skill">Linux</div>
+                <div class="skills__skill">Bash</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Resources</h3>
+              <a
+                href="https://www.mdpi.com/2227-9717/7/4/235"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Paper Link</a
+              >
+              <a
+                href="https://github.com/dhcl1580/machinelearniginmetagenomicstesis."
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://github.com/BioAITeam">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <!--
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+              -->
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Team Bioinformatics and Artificial Intelligence</h4>
+            <p class="main-footer__short-desc">
+              <!-- Universidad Autónoma de Manizales </br> Contact at: <a href="mailto:rtabares@autonoma.edu.co">rtabares@autonoma.edu.co</a> -->
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

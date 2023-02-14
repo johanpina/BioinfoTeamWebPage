@@ -26,3 +26,8 @@ y propuestas novedosas para resolver tareas de bioinformática con deepLearning
 - Mariana Candamil Cortés.
 - Paula Andrea Jaimes Buitron.
 - Nicolás Tobón Orozco Arias.
+
+
+## The Web page is published at:
+
+[Web Page](https://brave-meadow-017ac9910.2.azurestaticapps.net/)

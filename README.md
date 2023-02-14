@@ -29,6 +29,6 @@ y propuestas novedosas para resolver tareas de bioinformática con deepLearning
 - Nicolás Tobón Orozco Arias.
 
 
-## The Web page is published at:
+## La página se encuentra de acceso público en:
 
 [Web Page](https://brave-meadow-017ac9910.2.azurestaticapps.net/)

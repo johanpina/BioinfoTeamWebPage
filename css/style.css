@@ -832,6 +832,18 @@ https://codepen.io/petegarvin1/pen/YzWBbRx */
 .card7:hover .fa {
   opacity: 1;}
 
+
+.card8{
+  background: url('https://github.com/BioAITeam/BioAITeam.github.io/blob/main/assets/authors/HBAA_gray.png?raw=true') center center no-repeat;
+  background-size: 300px;}
+.card8:hover{
+  background: url('https://github.com/BioAITeam/BioAITeam.github.io/blob/main/assets/authors/HBAA_gray.png?raw=true') left center no-repeat;
+  background-size: 600px;}
+.card8:hover .h2card {
+  opacity: 1;}
+.card8:hover .fa {
+  opacity: 1;}
+
 .cardN{
   background-color: black;
 }

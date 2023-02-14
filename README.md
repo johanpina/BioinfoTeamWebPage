@@ -14,15 +14,15 @@ y propuestas novedosas para resolver tareas de bioinformática con deepLearning
 
 ## Desarrolladores de la página
 
-Johan Sebastian Piña Duran.
-Estiven Valencia Castrillon.
+- Johan Sebastian Piña Duran.
+- Estiven Valencia Castrillon.
 
 ## Colaboradores
-Romain guyot
-Simon Orozco Arias.
-Reinel Tabares Soto
-Gustavo Isaza
-Luis Humberto López Murillo.
-Mariana Candamil Cortés.
-Paula Andrea Jaimes Buitron.
-Nicolás Tobón Orozco Arias.
+- Romain guyot
+- Simon Orozco Arias.
+- Reinel Tabares Soto
+- Gustavo Isaza
+- Luis Humberto López Murillo.
+- Mariana Candamil Cortés.
+- Paula Andrea Jaimes Buitron.
+- Nicolás Tobón Orozco Arias.

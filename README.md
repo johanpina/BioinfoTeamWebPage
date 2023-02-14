@@ -1,9 +1,10 @@
-### BioinfoTeamWebPage
-This repo contain the PASC for younger researcher program linked to YoloDNA project
+### Pagina Web Semillero Bioinformática
+
+Este es el repositorio del PASC para el programa de jovenes investigadores en el marco del proyecto de TE-Learning
 
 ## Uso del repo
 Este repositorio contiene la página web, presentada como producto de apropiación social del conocimiento
-para la convocatoria de jovenes investigadores 2022.
+para la convocatoria de jovenes investigadores 2022 validada para la universidasd Autónoma de Manizales.
 
 
 En esta página están los proyectos ejecutados en el semillero de bioinformática e inteligencia artificial
